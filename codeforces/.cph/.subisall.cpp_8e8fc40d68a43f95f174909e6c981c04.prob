@@ -1,0 +1,1 @@
+{"name":"Local: subisall","url":"c:\\Dev\\DSA AND ALGO\\DSA-AND-ALGO\\codeforces\\subisall.cpp","tests":[{"id":1756026809640,"input":"2\n3\n0 1 1\n3\n1 2 3","output":"3\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Dev\\DSA AND ALGO\\DSA-AND-ALGO\\codeforces\\subisall.cpp","group":"local","local":true}

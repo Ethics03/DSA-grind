@@ -2,32 +2,35 @@
 
 using namespace std;
 
-int solve(){
+void solve(){
+  int count = 0; 
+  int n , k;
+  cin >> n >> k;
+  vector<int> s(n);
+  vector<int> t(n);
 
-  int n , pos;
-  string s;
-  cin >> n >> pos;
-  int poss = pos-1;
-  cin >> s;
-  int lf = pos;
-  int rt = s.length()-pos;
-  
-  int lfhash = 0;
-  int rthash = 0;
-  for(int i = poss-1;i >=0; i--){
-    lfhash++;
-    if(s[i] == '#') break;
-    if(i==0) lfhash++;
+  for(int i = 0 ; i < n ; i++){
+    cin >> s[i];
+  }
+  for(int i = 0 ; i < n ; i++){
+    cin >> t[i];
   }
 
-  for(int i = poss+1;i < n ; i++){
-    rthash++;
-    if(s[i] == '#') break;
-    if(i=n-1) rthash++;
+  for(int i = 0 ; i < n ; i++){
+   
+    
+    
   }
-  
 
- cout << max(lfhash,rthash) << endl;; 
+  if(count == t.size()){
+    cout << "YES" << endl;
+    return;
+  }
+  else{
+    cout << "NO" << endl;
+    return;
+  }
+
 } 
 
 int main() {
